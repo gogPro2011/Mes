@@ -1,0 +1,19 @@
+﻿<Window x:Class="wpf_try.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_try"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,452,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="780" Height="122" x:Name="userMessage" Visibility="Hidden"/>
+
+        <Button x:Name="Connect" Click="Connect_Click"  Content="Con" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="60" Width="60"/>
+
+        <TextBlock Visibility="Hidden" HorizontalAlignment="Left" Margin="15,75,10,10" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="372" Width="775" x:Name="MessageBox"/>
+    
+        <Button x:Name="sendMsg" Click="sendMsg_Click" Content="" HorizontalAlignment="Left" Margin="743,394,0,0" VerticalAlignment="Top" Height="32" Width="32"/>
+
+    </Grid>
+</Window>
